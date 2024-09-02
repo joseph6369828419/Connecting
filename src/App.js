@@ -9,7 +9,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3001/register', {
+      const response = await axios.post('https://making.onrender.com/register', {
         username,
         password,
       });
